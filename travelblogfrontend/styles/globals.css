@@ -1,0 +1,145 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  color: rgb(70, 70, 70);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* App */
+.app-container {
+  display: flex;
+  background-color: rgb(145, 156, 143);
+}
+
+/* NavBar */
+nav.nav-container {
+  background-color: rgb(255,255,255);
+  min-height: 100vh;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav.nav-container .nav-item-container {
+  padding: 30px;
+}
+
+/* HomePage */
+.dashboard {
+  width: 100%;
+}
+
+.posts-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Card */
+.card-container {
+  background-color: rgb(255,255,255);
+  width: 400px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: rgba(0,0,0,0.05) 0 6px 24px 0, rgba(0, 0, 0, 0.08) 0 0 0 1px;
+}
+
+.tag-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.tag-container .tag {
+  color: rgb(255,255,255);
+  padding: 5px 10px;
+  margin: 10px 0 10px 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tag-container .tag:nth-child(1) {
+  margin-left: 0 !important;
+}
+
+.card-container .info-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Images */
+.main-image,
+.post-image {
+  width: 100%;
+}
+
+.avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
+
+/* Post */
+.post-container {
+  background-color: rgb(255,255,255);
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0,0,0,0.05) 0 6px 24px 0, rgba(0, 0, 0, 0.08) 0 0 0 1px;
+  padding: 20px;
+  width: 100%;
+}
+
+.post-container .info-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.post-container .author-container,
+.post-container .map-container {
+  width: 48%;
+}
+
+.map-container .map {
+  width: 100%;
+  height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
